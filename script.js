@@ -4,6 +4,7 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword() {
   var count = Number(prompt("Please enter the amount of characters you would like in your password."));
   console.log(count);
+  //limits the amount of characters your password can be
   if (count < 8 || count > 128) {
     alert("Password must be at least 8 characters.");
 

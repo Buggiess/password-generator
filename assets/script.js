@@ -6,7 +6,7 @@ function generatePassword() {
   console.log(count);
   //limits the amount of characters your password can be
   if (count < 8 || count > 128) {
-    alert("Password must be at least 8 characters.");
+    alert("Password must be between 8 and 128 characters.");
 
     return "";
   }
